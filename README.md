@@ -17,8 +17,9 @@
 ## 🚀 Встановлення та запуск
 
 1. Склонуйте репозиторій на свій комп'ютер:
-   ```bash
-   git clone [https://github.com/3bembe1/bse-lr1-Nikonov.git](https://github.com/3bembe1/bse-lr1-Nikonov.git)
+```bash
+https://github.com/3bembe1/bse-lr1-Nikonov.git
+```
 
 2. Перейдіть у папку проєкту:
 cd bse-lr1-Nikonov
