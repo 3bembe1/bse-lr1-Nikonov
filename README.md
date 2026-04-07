@@ -9,7 +9,7 @@ PointBlank – це мінімалістичний веб-сервіс, приз
 
 ## Технології
 
-- Мова програмування: C# (Compiler version: '5.3.0-2.26119.122 (40cd698e5cfb2d90f436889726ee01f48d99f3ab)'. Language version: 14.0)
+- Мова програмування: JavaScript 1.8.0
 - IDE: Visual Studio Code 1.114.0
 - VCS: Git 2.53.0 + GitHub
 - AI-асистент: GitHub Copilot Student
