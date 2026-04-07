@@ -1,0 +1,78 @@
+.focus-timer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: radial-gradient(circle at top, #f4f7ff 0%, #e5ecff 60%, #f9fbff 100%);
+}
+
+.focus-timer__card {
+  width: min(100%, 420px);
+  padding: 32px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 24px 60px rgba(29, 53, 100, 0.12);
+  text-align: center;
+  border: 1px solid rgba(14, 41, 93, 0.08);
+}
+
+.focus-timer__title {
+  margin: 0 0 24px;
+  font-size: 1.2rem;
+  color: #24315b;
+  letter-spacing: 0.04em;
+}
+
+.focus-timer__display {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #0f1446;
+  padding: 28px 24px;
+  border-radius: 20px;
+  background: #eef3ff;
+  margin-bottom: 28px;
+  letter-spacing: 0.06em;
+}
+
+.focus-timer__controls {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.focus-timer__button {
+  border: none;
+  padding: 14px 18px;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+.focus-timer__button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.focus-timer__button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.focus-timer__button--primary {
+  background: #3f61ff;
+  color: #ffffff;
+  box-shadow: 0 12px 24px rgba(63, 97, 255, 0.18);
+}
+
+.focus-timer__button--secondary {
+  background: #e8ecff;
+  color: #273362;
+}
+
+.focus-timer__button--reset {
+  background: #ff6b6b;
+  color: #ffffff;
+}
