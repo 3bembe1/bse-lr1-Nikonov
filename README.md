@@ -20,6 +20,11 @@
    ```bash
    git clone [https://github.com/3bembe1/bse-lr1-Nikonov.git](https://github.com/3bembe1/bse-lr1-Nikonov.git)
 
+2. Перейдіть у папку проєкту:
+cd bse-lr1-Nikonov
+
+3. Відкрийте папку у Visual Studio Code та запустіть файл index.html у браузері
+
 ## Ліцензія
 
 Цей проєкт розповсюджується за ліцензією MIT License.
