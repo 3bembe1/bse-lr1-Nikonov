@@ -26,6 +26,9 @@ cd bse-lr1-Nikonov
 
 3. Відкрийте папку у Visual Studio Code та запустіть файл index.html у браузері
 
+посилання на звіт:
+[Звіт до ЛР№1](bse-lr1-Nikonov\certs)
+
 ## Ліцензія
 
 Цей проєкт розповсюджується за ліцензією MIT License.
